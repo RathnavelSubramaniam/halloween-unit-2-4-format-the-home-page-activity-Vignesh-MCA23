@@ -1,0 +1,65 @@
+.div1 img{
+    float:left;
+}
+.div1 h1{
+    display: inline;
+    color: orange;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 1px 1px;
+    font-size: 45px;
+}
+.class1{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.sub_class1 p::first-letter {
+    font-size: 200%;
+  }
+.sub_class1 p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub_class2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class2 a{
+    color: orange;
+
+}
+.class2 #l1{
+    color: orange;
+    
+}
+ul li::before {
+    content: "\2022";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -21px;
+  }
+.class2 li{
+    padding-top: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+.class3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class3 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class3 footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
